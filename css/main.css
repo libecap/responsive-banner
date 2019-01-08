@@ -1,6 +1,9 @@
+html {
+  font-family: Georgia, serif;
+}
+
 .text {
   color: #fff;
-  font-family: Georgia, sans-serif;
 }
 
 .btn-ghost {
@@ -16,14 +19,8 @@
 }
 
 .background {
-    background-color: #495562;
+  background-color: #495562;
 }
-
-a {
-    flex-wrap: nowrap;
-}
-
-
 
 @media only screen and (min-width: 60em) {
 
@@ -36,22 +33,16 @@ a {
     border-color: #fff;
   }
 
-main {
+  main {
+    max-height: 500px;
     position: relative;
+    overflow: hidden;
   }
 
   .content {
     position: absolute;
     bottom: 0%;
     width: 100%;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
   }
 
 }
