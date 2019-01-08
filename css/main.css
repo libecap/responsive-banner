@@ -1,0 +1,57 @@
+.text {
+  color: #fff;
+  font-family: Georgia, sans-serif;
+}
+
+.btn-ghost {
+  color: #fff;
+  font-family: Georgia, sans-serif;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  color: #000;
+  border-color: #efefef;
+  background-color: #efefef;
+}
+
+.background {
+    background-color: #495562;
+}
+
+a {
+    flex-wrap: nowrap;
+}
+
+
+
+@media only screen and (min-width: 60em) {
+
+  .background {
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    background-color: transparent;
+  }
+
+  .btn-ghost {
+    border-color: #fff;
+  }
+
+main {
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
